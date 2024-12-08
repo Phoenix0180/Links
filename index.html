@@ -29,6 +29,7 @@
         .image-container {
             flex: 1;
             margin-right: 20px;
+            text-align: center;
         }
         .content-container {
             flex: 2;
@@ -47,9 +48,11 @@
             text-decoration: none;
             color: #007BFF;
             font-size: 18px;
+            transition: transform 0.3s ease;
         }
         .links a:hover {
             text-decoration: underline;
+            transform: translateY(-5px); /* Jumping animation */
         }
         img {
             max-width: 100%;
@@ -62,13 +65,21 @@
             font-size: 20px;
             color: #007BFF;
         }
+        .description {
+            margin-top: 10px;
+            font-size: 14px;
+            color: #666;
+        }
     </style>
-</head> 
+</head>
 <body>
     <div class="container">
         <div class="image-container">
             <!-- Add the image here -->
             <img src="https://raw.githubusercontent.com/Phoenix0180/Links/refs/heads/main/Myself.jpg" alt="Description of the image">
+            <!--<div class="description">
+                <p>This is a brief description about the image. You can add more details here.</p>
+            </div>-->
         </div>
         <div class="content-container">
             <h1>Welcome to the Portal</h1>
