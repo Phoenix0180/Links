@@ -21,10 +21,22 @@
             padding: 20px;
             border-radius: 8px;
             box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-            text-align: center;
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            max-width: 800px;
+        }
+        .image-container {
+            flex: 1;
+            margin-right: 20px;
+        }
+        .content-container {
+            flex: 2;
+            text-align: left;
         }
         h1 {
             color: #333;
+            margin-top: 0;
         }
         .links {
             margin-top: 20px;
@@ -43,7 +55,7 @@
             max-width: 100%;
             height: auto;
             border-radius: 8px;
-            margin-bottom: 20px;
+            max-height: 300px; /* Set a maximum height for the image */
         }
         .links a i {
             margin-right: 10px;
@@ -51,20 +63,22 @@
             color: #007BFF;
         }
     </style>
-</head>
+</head> 
 <body>
     <div class="container">
-        <h1>Welcome to the Portal</h1>
-        <h2>Powered by AquilaLab</h2>
-        
-        <!-- Add the image here -->
-        <img src="https://raw.githubusercontent.com/Phoenix0180/Links/refs/heads/main/Myself.jpg" alt="Description of the image">
-        
-        <div class="links">
-            <a href="https://github.com/Phoenix0180" target="_blank"><i class="fab fa-github"></i> GitHub</a>
-            <a href="https://www.instagram.com/nakul3" target="_blank"><i class="fab fa-instagram"></i> Instagram</a>
-            <a href="https://www.instagram.com/sketches.aquila" target="_blank"><i class="fab fa-instagram"></i> Art Page</a>
-            <a href="https://www.facebook.com/nakul.k.victory" target="_blank"><i class="fab fa-facebook"></i> Facebook</a>
+        <div class="image-container">
+            <!-- Add the image here -->
+            <img src="https://raw.githubusercontent.com/Phoenix0180/Links/refs/heads/main/Myself.jpg" alt="Description of the image">
+        </div>
+        <div class="content-container">
+            <h1>Welcome to the Portal</h1>
+            <h2>Powered by AquilaLab</h2>
+            <div class="links">
+                <a href="https://github.com/Phoenix0180" target="_blank"><i class="fab fa-github"></i> GitHub</a>
+                <a href="https://www.instagram.com/nakul3" target="_blank"><i class="fab fa-instagram"></i> Instagram</a>
+                <a href="https://www.instagram.com/sketches.aquila" target="_blank"><i class="fab fa-instagram"></i> Art Page</a>
+                <a href="https://www.facebook.com/nakul.k.victory" target="_blank"><i class="fab fa-facebook"></i> Facebook</a>
+            </div>
         </div>
     </div>
 </body>
