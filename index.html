@@ -25,6 +25,7 @@
             flex-direction: row;
             align-items: center;
             max-width: 800px;
+            position: relative; /* Added for footer positioning */
         }
         .image-container {
             flex: 1;
@@ -76,6 +77,13 @@
             vertical-align: middle;
             margin-right: 10px;
         }
+        .footer {
+            position: absolute;
+            bottom: 10px;
+            right: 20px;
+            font-size: 14px;
+            color: #666;
+        }
     </style>
 </head>
 <body>
@@ -89,7 +97,6 @@
         </div>
         <div class="content-container">
             <h1>Welcome to the Portal</h1>
-            <h2>Powered by AquilaLab</h2>
             <div class="links">
                 <a href="https://github.com/Phoenix0180" target="_blank"><i class="fab fa-github"></i> GitHub</a>
                 <a href="https://www.instagram.com/nakul3" target="_blank"><i class="fab fa-instagram"></i> Instagram</a>
@@ -98,6 +105,9 @@
                 <a href="https://www.instagram.com/thrill.ride3" target="_blank"><i class="fab fa-instagram"></i> Moto Rides</a>
                 <a href="https://aquilal.web.app/" target="_blank"><img src="https://aquilal.web.app/images/favicon.svg" alt="AquilaLab Logo" class="aquila-logo"> Aquila Lab</a>
             </div>
+        </div>
+        <div class="footer">
+            Powered by AquilaLab
         </div>
     </div>
 </body>
