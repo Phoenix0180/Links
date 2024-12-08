@@ -3,62 +3,58 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>About Nakul K</title>
+    <title>My Webpage</title>
     <style>
         body {
             font-family: Arial, sans-serif;
             background-color: #f4f4f4;
-            color: #333;
+            margin: 0;
+            padding: 0;
             display: flex;
             justify-content: center;
             align-items: center;
             height: 100vh;
-            margin: 0;
         }
         .container {
-            text-align: center;
-            background: #fff;
-            padding: 30px;
+            background-color: #fff;
+            padding: 20px;
             border-radius: 8px;
-            box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            text-align: center;
         }
-        
         h1 {
-            margin-bottom: 10px;
+            color: #333;
         }
-        p {
-            margin-top: 0;
+        .links {
+            margin-top: 20px;
         }
-        /*below is button styling */
-.open-page-button {
-    background-color: #4CAF50; /* Green */
-    border: none;
-    color: white;
-    padding: 15px 32px;
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
-    font-size: 16px;
-    margin: 4px 2px;
-    cursor: pointer;
-}
+        .links a {
+            display: block;
+            margin: 10px 0;
+            text-decoration: none;
+            color: #007BFF;
+            font-size: 18px;
+        }
+        .links a:hover {
+            text-decoration: underline;
+        }
     </style>
 </head>
 <body>
     <div class="container">
-        <h1>About Nakul Kashyap</h1>
-        <p>With a mind that never rests, I constantly envision a world full of possibilities. My unyielding drive propels me toward my goals, fueled by an intense inner fire that refuses to dim.</p>
-        <p>Known for my deep intuition and ability to perceive the unseen, I navigate life with a blend of passion and purpose. My journey is one of transformation and growth, guided by a strong sense of direction and determination.</p>
-    
-    
-    <button class="open-page-button" onclick="openWebpage()">Link to website</button>
+        <h1>Welcome to My Webpage</h1>
+        <div class="links">
+            <a href="https://www.linkedin.com/" target="_blank">LinkedIn</a>
+            <a href="https://twitter.com/" target="_blank">Twitter</a>
+            <a href="https://github.com/" target="_blank">GitHub</a>
+            <a href="https://www.instagram.com/" target="_blank">Instagram</a>
+            <a href="https://www.facebook.com/" target="_blank">Facebook</a>
+            <a href="https://www.youtube.com/" target="_blank">YouTube</a>
+            <a href="https://www.reddit.com/" target="_blank">Reddit</a>
+            <a href="https://www.pinterest.com/" target="_blank">Pinterest</a>
+            <a href="https://www.tiktok.com/" target="_blank">TikTok</a>
+            <a href="https://www.snapchat.com/" target="_blank">Snapchat</a>
+        </div>
     </div>
-        <script>
-    // function for link button
-  function openWebpage() {
-    window.open("https://aquilal.web.app/", "_blank");
-}
-
-        </script>
 </body>
 </html>
